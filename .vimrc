@@ -18,8 +18,7 @@ set visualbell
 " Line number settings
 set number
 set numberwidth=4
-"colorscheme trivia1256 " for light background
-hi LineNr term=bold cterm=bold ctermfg=2 ctermbg=NONE gui=NONE guifg=Grey guibg=Grey90
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " Tabs settings
 set shiftwidth=2
