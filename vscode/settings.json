@@ -129,7 +129,28 @@
 
 	//Spell checker
 	"cSpell.language": "en,ru",
-	"cSpell.userWords": ["настройки", "Особенности"],
+	"cSpell.userWords": [
+		"autofetch",
+		"catppuccin",
+		"Embedde",
+		"esbenp",
+		"Fira",
+		"Hasklig",
+		"Iosevka",
+		"kuznecov",
+		"Monaspace",
+		"monoki",
+		"nunit",
+		"nuxt",
+		"Parens",
+		"Roboto",
+		"screencast",
+		"singlequotes",
+		"sonarlint",
+		"vsintellicode",
+		"настройки",
+		"Особенности"
+	],
 	"cSpell.enabled": true,
 	"cSpell.enableFiletypes": [
 		"blade",
@@ -176,7 +197,7 @@
 	"git.openRepositoryInParentFolders": "never",
 
 	//Other settings
-	"files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируктся файл по-умолчанию - просто текст
+	"files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
 	"diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
 	"security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
 	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнение на основании предыдущего выбора
