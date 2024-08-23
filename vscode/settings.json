@@ -1,14 +1,14 @@
 {
 	// Main editor settings
 	"window.openFilesInNewWindow": "off",
-	"editor.tabSize": 2, // размер таба
-	"editor.insertSpaces": true, // используем пробелы вместо табов
+	"editor.tabSize": 2, // размер знаков табуляции
+	"editor.insertSpaces": true, // используем пробелы вместо знаков табуляции
 	"editor.fontSize": 14, // размер шрифта в редакторе
 	"window.zoomLevel": 1,
 	"editor.folding": false, // Выключаем сворачивание блоков кода - скобки рядом с номером строки
 	"editor.smoothScrolling": true, // Плавный скроллинг
 	"editor.minimap.enabled": false,
-	"editor.detectIndentation": true, // Подсветка ращмеров отступов при выделении блока
+	"editor.detectIndentation": true, // Подсветка размеров отступов при выделении блока
 	"editor.suggestSelection": "first",
 	"symbols.hidesExplorerArrows": false,
 	"editor.formatOnPaste": true,
@@ -17,7 +17,7 @@
 	//Wrapping
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
-	"editor.wordWrapColumn": 100,
+	"editor.wordWrapColumn": 80,
 
 	//Определяет, будет ли редактор прокручиваться за пределы последней строки
 	"editor.scrollBeyondLastLine": true,
@@ -34,7 +34,7 @@
 	//Определяет должен ли редактор отображать управляющие символы
 	"editor.renderControlCharacters": false,
 
-	//Управляет выделением символов, которые можно срутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользователя.
+	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользователя.
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 	"html.completion.attributeDefaultValue": "singlequotes",
@@ -62,8 +62,8 @@
 	//Fonts
 	"editor.lineHeight": 28,
 	"editor.fontLigatures": true,
-	"editor.fontFamily": "Iosevka NFM, JetBrains Mono, Monaspace Neon, Maple Mono, MonoLisa, Ununtu Mono, Operator mono lig, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono, monospace",
-	"editor.inlayHints.fontFamily": "Iosevka NFM",
+	"editor.fontFamily": "Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira Code, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
+	"editor.inlayHints.fontFamily": "Monaspace Neon",
 	//Terminal
 	"terminal.integrated.fontFamily": "monospace",
 	"terminal.integrated.fontSize": 12,
@@ -96,7 +96,7 @@
 		"source.organizeImports": "explicit"
 	},
 
-	//Включить круглые скобки вокруг единственного параметра функуции стрелки
+	//Включить круглые скобки вокруг единственного параметра функции стрелки
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.inlineSuggest.enabled": true,
@@ -129,7 +129,7 @@
 
 	//Spell checker
 	"cSpell.language": "en,ru",
-	"cSpell.userWords": [],
+	"cSpell.userWords": ["настройки", "Особенности"],
 	"cSpell.enabled": true,
 	"cSpell.enableFiletypes": [
 		"blade",
@@ -167,14 +167,15 @@
 		"**/.vscode": true,
 		"**/.next": true,
 		"**/.nuxt": true,
-		"**/dist": true
+		"**/dist": true,
+		"**/.vs": true
 	},
 
 	//Other settings
 	"files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируктся файл по-умолчанию - просто текст
 	"diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
 	"security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнения на основании предыдущего выбора
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнение на основании предыдущего выбора
 	"window.confirmBeforeClose": "keyboardOnly", // подтверждение перед закрытием окна только при использовании клавиатуры
 	"git.openRepositoryInParentFolders": "never",
 	"editor.gotoLocation.multipleDefinitions": "goto",
@@ -191,5 +192,6 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
-	"sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin"
+	"sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin/node",
+	"nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"]
 }
