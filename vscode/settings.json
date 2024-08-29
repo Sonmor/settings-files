@@ -47,7 +47,6 @@
 	"editor.scrollbar.vertical": "hidden",
 	"window.density.editorTabHeight": "compact",
 	"workbench.productIconTheme": "fluent-icons",
-	"workbench.iconTheme": "catppuccin-perfect-sequoia",
 	"workbench.activityBar.location": "top",
 	"workbench.preferredDarkColorTheme": "Bearded Theme HC Minuit",
 	"editor.accessibilitySupport": "off",
@@ -216,5 +215,6 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin/node",
-	"nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"]
+	"nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"],
+	"window.menuBarVisibility": "toggle"
 }
