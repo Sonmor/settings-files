@@ -3,7 +3,8 @@
 ## JS & TS
 
 - Backticks
-- Code Spell Checker
+- Code Spell Checker 
+- Russian - Code Spell Checker
 - Color the tag name
 - colorize
 - ESLint
