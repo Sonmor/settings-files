@@ -13,6 +13,7 @@
 	"symbols.hidesExplorerArrows": false,
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
+	"editor.rulers": [80],
 
 	//Wrapping
 	"editor.wordWrap": "bounded",
