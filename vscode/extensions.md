@@ -3,7 +3,7 @@
 ## JS & TS
 
 - Backticks
-- Code Spell Checker 
+- Code Spell Checker
 - Russian - Code Spell Checker
 - Color the tag name
 - colorize
@@ -18,3 +18,7 @@
 - Svg preview
 - TODO Highlight
 - VSCode color Picker
+
+## C# & Dotnet
+
+- C# Dev Kit
