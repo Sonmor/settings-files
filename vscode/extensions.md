@@ -1,5 +1,9 @@
 # Extensions
 
+## General
+
+- SonarLint
+
 ## JS & TS
 
 - Backticks
@@ -22,3 +26,12 @@
 ## C# & Dotnet
 
 - C# Dev Kit
+- .NET Core Tools
+- .NET Core User Secrets
+- .NET Education Bundle SD
+- .NET Extension Pack
+- .NET Install Tool
+- C#
+- C# Dev Kit
+- C# Extension
+- C# Namespace Autocomplete
