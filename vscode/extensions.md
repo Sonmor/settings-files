@@ -2,7 +2,9 @@
 
 ## General
 
+- Vim
 - SonarLint
+- MarkdownLint
 
 ## JS & TS
 
@@ -32,6 +34,4 @@
 - .NET Extension Pack
 - .NET Install Tool
 - C#
-- C# Dev Kit
-- C# Extension
 - C# Namespace Autocomplete
