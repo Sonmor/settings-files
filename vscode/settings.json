@@ -43,7 +43,7 @@
 	//Appearance - визуальное оформление редактора
 	"workbench.colorTheme": "Default Dark+",
 	"editor.bracketPairColorization.enabled": false,
-	"editor.glyphMargin": false,
+	//"editor.glyphMargin": false,
 	"editor.scrollbar.horizontal": "hidden",
 	"editor.scrollbar.vertical": "hidden",
 	"window.density.editorTabHeight": "compact",
