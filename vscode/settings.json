@@ -13,33 +13,28 @@
 	"symbols.hidesExplorerArrows": false,
 	"editor.formatOnPaste": true,
 	"editor.formatOnSave": true,
-	"editor.rulers": [80],
-
+	"editor.rulers": [
+		80
+	],
 	//Wrapping
 	"editor.wordWrap": "bounded",
 	"editor.wrappingIndent": "same",
 	"editor.wordWrapColumn": 80,
-
 	//Определяет, будет ли редактор прокручиваться за пределы последней строки
 	"editor.scrollBeyondLastLine": true,
 	"editor.multiCursorModifier": "ctrlCmd",
-
 	//Rename tags
 	"editor.linkedEditing": true,
-
 	//HTML auto closing tags
 	"html.autoClosingTags": true,
 	"javascript.autoClosingTags": true,
 	"typescript.autoClosingTags": true,
-
 	//Определяет должен ли редактор отображать управляющие символы
 	"editor.renderControlCharacters": false,
-
 	//Управляет выделением символов, которые можно спутать с основными символами ASCII, кроме тех, которые являются общими для текущего пользователя.
 	"editor.unicodeHighlight.ambiguousCharacters": false,
 	"editor.quickSuggestionsDelay": 0,
 	"html.completion.attributeDefaultValue": "singlequotes",
-
 	//Appearance - визуальное оформление редактора
 	"workbench.colorTheme": "Default Dark+",
 	"editor.bracketPairColorization.enabled": false,
@@ -53,12 +48,10 @@
 	"editor.accessibilitySupport": "off",
 	"window.commandCenter": false,
 	"workbench.layoutControl.enabled": false,
-
 	//Cursor
 	"editor.cursorBlinking": "expand",
 	"editor.cursorStyle": "line-thin",
 	"editor.cursorSmoothCaretAnimation": "explicit",
-
 	//Fonts
 	"editor.lineHeight": 28,
 	"editor.fontLigatures": true,
@@ -68,23 +61,19 @@
 	"terminal.integrated.fontFamily": "monospace",
 	"terminal.integrated.fontSize": 12,
 	"terminal.integrated.tabs.enabled": false,
-
 	//Explorer
 	"explorer.confirmDelete": false,
 	"explorer.compactFolders": false,
 	"explorer.confirmDragAndDrop": false,
-
 	//Разрешает уменьшить размер папок когда доступного места недостаточно для отображения всех вкладок одновременно
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
-
 	//Emmet
 	"emmet.includeLanguages": {
 		"blade": "html",
 		"javascript": "javascriptreact"
 	},
 	"emmet.triggerExpansionOnTab": true,
-
 	//Formatting
 	"prettier.semi": true,
 	"prettier.useTabs": true,
@@ -95,12 +84,10 @@
 	"editor.codeActionsOnSave": {
 		"source.organizeImports": "explicit"
 	},
-
 	//Включить круглые скобки вокруг единственного параметра функции стрелки
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.inlineSuggest.enabled": true,
-
 	//Breadcrumbs
 	"breadcrumbs.enabled": true,
 	"breadcrumbs.icons": false,
@@ -117,7 +104,6 @@
 	"breadcrumbs.showConstants": false,
 	"breadcrumbs.showEnumMembers": false,
 	"breadcrumbs.showConstructors": false,
-
 	//JS & TS
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
@@ -126,7 +112,6 @@
 	"javascript.format.semicolons": "remove",
 	"typescript.format.semicolons": "remove",
 	"js/ts.implicitProjectConfig.experimentalDecorators": true,
-
 	//Spell checker
 	"cSpell.language": "en,ru",
 	"cSpell.userWords": [
@@ -171,9 +156,7 @@
 		"б": true,
 		"е": true
 	},
-
 	"editor.hideCursorInOverviewRuler": true,
-
 	"files.exclude": {
 		"**/.git": true,
 		"**/.svn": true,
@@ -190,12 +173,10 @@
 		"**/dist": true,
 		"**/.vs": true
 	},
-
 	//Git
 	"git.enableSmartCommit": true,
 	"git.autofetch": true,
 	"git.openRepositoryInParentFolders": "never",
-
 	//Other settings
 	"files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
 	"diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
@@ -204,18 +185,18 @@
 	"window.confirmBeforeClose": "keyboardOnly", // подтверждение перед закрытием окна только при использовании клавиатуры
 	"editor.gotoLocation.multipleDefinitions": "goto",
 	"workbench.editor.empty.hint": "hidden",
-
 	"screencastMode.fontSize": 20,
-
 	"files.associations": {
 		"*.md": "markdown"
 	},
-
 	// Extensions
 	"[jsonc]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin/node",
-	"nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"],
-	"window.menuBarVisibility": "toggle"
+	"nunitTestRunner.projectsPatterns": [
+		"**/bin/*Tests.dll"
+	],
+	"window.menuBarVisibility": "classic",
+	"window.customTitleBarVisibility": "auto"
 }
