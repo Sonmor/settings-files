@@ -1,0 +1,141 @@
+{
+    // Main editor settings
+    "window.openFilesInNewWindow": "off",
+    "editor.tabSize": 4, // размер знаков табуляции
+    "editor.insertSpaces": true, // используем пробелы вместо знаков табуляции
+    "editor.fontSize": 14, // размер шрифта в редакторе
+    "window.zoomLevel": 1,
+    "editor.folding": false, // Выключаем сворачивание блоков кода - скобки рядом с номером строки
+    "editor.smoothScrolling": true, // Плавный скроллинг
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": true, // Подсветка размеров отступов при выделении блока
+    "editor.suggestSelection": "first",
+    "symbols.hidesExplorerArrows": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
+    "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
+    "security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнение на основании предыдущего выбора
+    "window.confirmBeforeClose": "keyboardOnly", // подтверждение перед закрытием окна только при использовании клавиатуры
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "workbench.editor.empty.hint": "hidden",
+    //Support
+    "editor.accessibilitySupport": "off",
+    //Wrapping
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 80,
+    //Appearance
+    //Layout
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "window.density.editorTabHeight": "compact",
+    "workbench.layoutControl.enabled": false,
+    "workbench.activityBar.location": "top",
+    //Разрешает уменьшить размер папок когда доступного места недостаточно для отображения всех вкладок одновременно
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.startupEditor": "newUntitledFile",
+    //Breadcrumbs
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": false,
+    "breadcrumbs.showKeys": false,
+    "breadcrumbs.showFiles": false,
+    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.showArrays": false,
+    "breadcrumbs.showEvents": false,
+    "breadcrumbs.showFields": false,
+    "breadcrumbs.showClasses": false,
+    "breadcrumbs.showMethods": false,
+    "breadcrumbs.showBooleans": false,
+    "breadcrumbs.showFunctions": false,
+    "breadcrumbs.showConstants": false,
+    "breadcrumbs.showEnumMembers": false,
+    "breadcrumbs.showConstructors": false,
+    //Themes
+    "workbench.colorTheme": "Default Dark+",
+    "editor.bracketPairColorization.enabled": false,
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.preferredDarkColorTheme": "Bearded Theme HC Minuit",
+    "window.commandCenter": false,
+    //Cursor
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    //Fonts
+    "editor.lineHeight": 28,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
+    "editor.inlayHints.fontFamily": "Monaspace Neon",
+    //Terminal
+    "terminal.integrated.fontFamily": "Font Awesome",
+    "terminal.integrated.fontSize": 12,
+    //Explorer
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/.expo": true,
+        "**/.expo-shared": true,
+        "**/.idea": true,
+        "**/.vscode": true,
+        "**/.next": true,
+        "**/.nuxt": true,
+        "**/dist": true,
+        "**/.vs": true
+    },
+    //Extensions
+    //Spell checker
+    "cSpell.language": "en,ru",
+    "cSpell.userWords": [
+        "autofetch",
+        "catppuccin",
+        "Embedde",
+        "esbenp",
+        "Fira",
+        "Hasklig",
+        "Iosevka",
+        "kuznecov",
+        "Monaspace",
+        "monoki",
+        "nunit",
+        "nuxt",
+        "Parens",
+        "Roboto",
+        "screencast",
+        "singlequotes",
+        "sonarlint",
+        "vsintellicode",
+        "настройки",
+        "Особенности"
+    ],
+    "cSpell.enabled": true,
+    "cSpell.enableFiletypes": [
+        "blade",
+        "jsx",
+        "tsx",
+        "js",
+        "scss",
+        "sass",
+        "vue",
+        "cs",
+        "java",
+        "class"
+    ],
+    "editor.unicodeHighlight.allowedCharacters": {
+        "а": true,
+        "с": true,
+        "Т": true,
+        "б": true,
+        "е": true
+    },
+}
