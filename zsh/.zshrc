@@ -113,6 +113,8 @@ alias vim="vi"
 alias u="sudo apt update -y && sudo apt upgrade -y"
 alias docker="podman"
 alias k="kubectl"
+alias sqlite="sqlite3"
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
