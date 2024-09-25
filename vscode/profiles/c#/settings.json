@@ -58,7 +58,6 @@
     //Themes
     "workbench.colorTheme": "Default Dark+",
     "editor.bracketPairColorization.enabled": false,
-    "workbench.productIconTheme": "fluent-icons",
     "workbench.preferredDarkColorTheme": "Bearded Theme HC Minuit",
     "window.commandCenter": false,
     //Cursor
@@ -138,4 +137,5 @@
         "б": true,
         "е": true
     },
+    "workbench.productIconTheme": "fluent-icons",
 }
