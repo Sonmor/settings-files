@@ -3,4 +3,4 @@
 while read p;
 do
   code --uninstall-extension $p
-done < extensions.txt
+done < $1
