@@ -139,4 +139,5 @@
     },
     "workbench.productIconTheme": "fluent-icons",
     "workbench.iconTheme": "symbols",
+    "files.autoSave": "afterDelay"
 }
