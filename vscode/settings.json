@@ -136,5 +136,6 @@
 		"е": true
 	},
 	"workbench.productIconTheme": "fluent-icons",
-	"workbench.iconTheme": "symbols"
+	"workbench.iconTheme": "symbols",
+	"files.autoSave": "afterDelay"
 }
