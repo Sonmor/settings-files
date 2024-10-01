@@ -1,0 +1,12 @@
+beardedbear.beardedicons
+beardedbear.beardedtheme
+christian-kohler.path-intellisense
+davidanson.vscode-markdownlint
+ionutvmi.path-autocomplete
+miguelsolorio.fluent-icons
+miguelsolorio.symbols
+pabue.cotion-theme
+sonarsource.sonarlint-vscode
+streetsidesoftware.code-spell-checker
+streetsidesoftware.code-spell-checker-russian
+vscodevim.vim
