@@ -135,5 +135,7 @@
 		"б": true,
 		"е": true
 	},
-	"workbench.productIconTheme": "fluent-icons"
+	"workbench.productIconTheme": "fluent-icons",
+	"git.openRepositoryInParentFolders": "always",
+	"files.autoSave": "afterDelay"
 }
