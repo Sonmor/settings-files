@@ -138,4 +138,5 @@
         "е": true
     },
     "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
 }
