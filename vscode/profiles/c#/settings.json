@@ -1,5 +1,6 @@
 {
-    // Main editor settings
+    //Editor
+    "files.autoSave": "afterDelay",
     "window.openFilesInNewWindow": "off",
     "editor.tabSize": 4, // размер знаков табуляции
     "editor.insertSpaces": true, // используем пробелы вместо знаков табуляции
@@ -14,9 +15,9 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.rulers": [
-        80
+        120
     ],
-    "files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
+    "files.defaultLanguage": "c#", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
     "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
     "security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнение на основании предыдущего выбора
@@ -90,7 +91,9 @@
         "**/.next": true,
         "**/.nuxt": true,
         "**/dist": true,
-        "**/.vs": true
+        "**/.vs": true,
+        "**/bin": true,
+        "**/obj": true
     },
     //Extensions
     //Spell checker
@@ -137,7 +140,5 @@
         "б": true,
         "е": true
     },
-    "workbench.productIconTheme": "fluent-icons",
-    "workbench.iconTheme": "symbols",
-    "files.autoSave": "afterDelay"
+    "git.openRepositoryInParentFolders": "always",
 }
