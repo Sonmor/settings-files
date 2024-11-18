@@ -68,7 +68,7 @@
     //Fonts
     "editor.lineHeight": 28,
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
+    "editor.fontFamily": "Iosevka, Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
     "editor.inlayHints.fontFamily": "Monaspace Neon",
     //Terminal
     "terminal.integrated.fontFamily": "Font Awesome",
