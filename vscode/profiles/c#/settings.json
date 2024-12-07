@@ -68,10 +68,14 @@
     //Fonts
     "editor.lineHeight": 28,
     "editor.fontLigatures": true,
+<<<<<<< HEAD
     "editor.fontFamily": "Iosevka, Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
     "editor.inlayHints.fontFamily": "IosevkaTerm Nerd Font ",
+=======
+    "editor.inlayHints.fontFamily": "IosevkaTerm Nerd Font",
+>>>>>>> a478010 (vscode: modify c# profile settings)
     //Terminal
-    "terminal.integrated.fontFamily": "Font Awesome",
+    "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font",
     "terminal.integrated.fontSize": 12,
     //Explorer
     "explorer.confirmDelete": false,
@@ -142,4 +146,12 @@
     },
     "git.openRepositoryInParentFolders": "always",
     "testing.coverageToolbarEnabled": true,
+<<<<<<< HEAD
 }
+=======
+    "[csharp]": {
+        
+        "editor.maxTokenizationLineLength": 2500
+    },
+}
+>>>>>>> a478010 (vscode: modify c# profile settings)
