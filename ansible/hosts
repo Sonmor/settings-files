@@ -6,3 +6,13 @@ server.home
 den61.home
 den62.home
 
+[db]
+m8s.home
+
+[dns]
+server.home
+
+[docker]
+server.home
+
+
