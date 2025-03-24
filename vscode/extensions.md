@@ -36,3 +36,8 @@
 - .NET Install Tool
 - C#
 - C# Namespace Autocomplete
+
+
+## Java
+
+- Extension Pack for Java
