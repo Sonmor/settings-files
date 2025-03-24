@@ -4,7 +4,7 @@
     "window.openFilesInNewWindow": "off",
     "editor.tabSize": 4, // размер знаков табуляции
     "editor.insertSpaces": true, // используем пробелы вместо знаков табуляции
-    "editor.fontSize": 14, // размер шрифта в редакторе
+    "editor.fontSize": 11, // размер шрифта в редакторе
     "window.zoomLevel": 1,
     "editor.folding": false, // Выключаем сворачивание блоков кода - скобки рядом с номером строки
     "editor.smoothScrolling": true, // Плавный скроллинг
@@ -15,7 +15,7 @@
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
     "editor.rulers": [
-        120
+        140
     ],
     "files.defaultLanguage": "c#", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
     "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
@@ -66,16 +66,12 @@
     "editor.cursorStyle": "line-thin",
     "editor.cursorSmoothCaretAnimation": "explicit",
     //Fonts
-    "editor.lineHeight": 28,
+    "editor.lineHeight": 20,
     "editor.fontLigatures": true,
-<<<<<<< HEAD
-    "editor.fontFamily": "Iosevka, Monaspace Neon, Iosevka NFM, monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
-    "editor.inlayHints.fontFamily": "IosevkaTerm Nerd Font ",
-=======
-    "editor.inlayHints.fontFamily": "IosevkaTerm Nerd Font",
->>>>>>> a478010 (vscode: modify c# profile settings)
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.inlayHints.fontFamily": "Fira Code Retina",
     //Terminal
-    "terminal.integrated.fontFamily": "IosevkaTerm Nerd Font",
+    "terminal.integrated.fontFamily": "Fira Code Retina",
     "terminal.integrated.fontSize": 12,
     //Explorer
     "explorer.confirmDelete": false,
@@ -146,12 +142,9 @@
     },
     "git.openRepositoryInParentFolders": "always",
     "testing.coverageToolbarEnabled": true,
-<<<<<<< HEAD
-}
-=======
     "[csharp]": {
-        
         "editor.maxTokenizationLineLength": 2500
     },
+    "terminal.integrated.defaultProfile.linux": "zsh (2)",
+    "editor.codeLensFontFamily": "Fira Mono Regular",
 }
->>>>>>> a478010 (vscode: modify c# profile settings)
