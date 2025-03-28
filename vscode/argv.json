@@ -1,0 +1,12 @@
+{
+  "disable-hardware-acceleration":true
+,
+
+	// Allows to disable crash reporting.
+	// Should restart the app if the value is changed.
+	"enable-crash-reporter": true,
+
+	// Unique id used for correlating crash reports sent from this instance.
+	// Do not edit this value.
+	"crash-reporter-id": "58c6bb66-eb68-4b82-b650-4327f1db7b28"
+}

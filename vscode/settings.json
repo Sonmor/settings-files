@@ -69,7 +69,7 @@
   "editor.fontFamily": "Iosevka, Monaspace Neon,monospace, JetBrains Mono, Maple Mono, MonoLisa, Ubuntu Mono, Operator mono lig, DejaVu Sans Mono, Fira C    ode, monoki, Hasklig, PragmataPro, IBM Plex Mono, Victor Mono, Roboto Mono",
   "editor.inlayHints.fontFamily": "Monaspace Neon",
   //Terminal
-  "terminal.integrated.fontFamily": "Font Awesome",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.fontSize": 10,
   //Explorer
   "explorer.confirmDelete": false,

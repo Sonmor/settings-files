@@ -146,5 +146,5 @@
         "editor.maxTokenizationLineLength": 2500
     },
     "terminal.integrated.defaultProfile.linux": "zsh (2)",
-    "editor.codeLensFontFamily": "Fira Mono Regular",
+    "editor.codeLensFontFamily": "Fira Mono Regular"
 }
