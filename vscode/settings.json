@@ -55,7 +55,7 @@
   "breadcrumbs.showEnumMembers": false,
   "breadcrumbs.showConstructors": false,
   //Themes
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "editor.bracketPairColorization.enabled": false,
   "workbench.preferredDarkColorTheme": "Bearded Theme HC Minuit",
   "window.commandCenter": false,
@@ -89,7 +89,7 @@
     "**/.next": true,
     "**/.nuxt": true,
     "**/dist": true,
-    "**/.vs": true
+    "**/.vs": true,
   },
   //Extensions
   //Spell checker
@@ -117,7 +117,7 @@
     "микросервисы",
     "настройки",
     "Особенности",
-    "фронтенд"
+    "фронтенд",
   ],
   "cSpell.enabled": true,
   "cSpell.enableFiletypes": [
@@ -130,14 +130,14 @@
     "vue",
     "cs",
     "java",
-    "class"
+    "class",
   ],
   "editor.unicodeHighlight.allowedCharacters": {
     "а": true,
     "с": true,
     "Т": true,
     "б": true,
-    "е": true
+    "е": true,
   },
   //Git
   "git.enableSmartCommit": true,
@@ -152,15 +152,17 @@
   "workbench.editor.empty.hint": "hidden",
   "screencastMode.fontSize": 20,
   "files.associations": {
-    "*.md": "markdown"
+    "*.md": "markdown",
   },
   // Extensions
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin/node",
   "nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"],
   "window.menuBarVisibility": "classic",
   "window.customTitleBarVisibility": "auto",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "chat.agent.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
 }
