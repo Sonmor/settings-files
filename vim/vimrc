@@ -1,5 +1,5 @@
 set nocompatible
-syntax on
+" syntax on
 filetype on
 filetype indent plugin on
 set hidden
@@ -18,7 +18,7 @@ set visualbell
 
 " Line number settings
 set number
-set numberwidth=4
+set numberwidth=2
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " Tabs settings

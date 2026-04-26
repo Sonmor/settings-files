@@ -162,5 +162,6 @@
   "nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"],
   "window.menuBarVisibility": "classic",
   "window.customTitleBarVisibility": "auto",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.donotShowInfoMsg": true
 }

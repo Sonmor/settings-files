@@ -1,0 +1,18 @@
+[user]
+	email = sonmor.ru@yandex.ru
+	name = sonmor
+[core]
+	editor = vim
+	autocrlf = input
+	safecrlf = warn
+[init]
+	defaultBranch = master
+[log]
+	date = short
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[alias]
+	lg = log --pretty=format:'%C(auto)%h %Cblue%ad [%Cgreen%an%C(auto)] %s%d'

@@ -18,8 +18,7 @@
   "files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
   "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
   "security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // автоматически изменять предложение автозаполнение на основании предыдущего выбора
-  "window.confirmBeforeClose": "keyboardOnly", // подтверждение перед закрытием окна только при использовании клавиатуры
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue", // подтверждение перед закрытием окна только при использовании клавиатуры
   "editor.gotoLocation.multipleDefinitions": "goto",
   "workbench.editor.empty.hint": "hidden",
   //Support
@@ -28,6 +27,12 @@
   "editor.wordWrap": "bounded",
   "editor.wrappingIndent": "same",
   "editor.wordWrapColumn": 120,
+  // Форматирование
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.maxTokenizationLineLength": 2500
+  },
   //Appearance
   //Layout
   "editor.scrollbar.horizontal": "hidden",
@@ -165,4 +170,12 @@
   "files.autoSave": "afterDelay",
   "chat.agent.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "sonarlint.rules": {
+    "java:S106": {
+      "level": "off"
+    },
+    "java:S1220": {
+      "level": "off"
+    }
+  }
 }

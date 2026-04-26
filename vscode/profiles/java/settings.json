@@ -152,7 +152,8 @@
   "workbench.editor.empty.hint": "hidden",
   "screencastMode.fontSize": 20,
   "files.associations": {
-    "*.md": "markdown"
+    "*.md": "markdown",
+    "*.java": "java"
   },
   // Extensions
   "[jsonc]": {
