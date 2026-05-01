@@ -14,7 +14,9 @@
   "symbols.hidesExplorerArrows": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.rulers": [120],
+  "editor.rulers": [
+    120
+  ],
   "files.defaultLanguage": "plaintext", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
   "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
   "security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
@@ -164,7 +166,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "sonarlint.pathToNodeExecutable": "/Users/kuznecov-roman/.nvm/versions/node/v22.6.0/bin/node",
-  "nunitTestRunner.projectsPatterns": ["**/bin/*Tests.dll"],
+  "nunitTestRunner.projectsPatterns": [
+    "**/bin/*Tests.dll"
+  ],
   "window.menuBarVisibility": "classic",
   "window.customTitleBarVisibility": "auto",
   "files.autoSave": "afterDelay",
@@ -177,5 +181,10 @@
     "java:S1220": {
       "level": "off"
     }
-  }
+  },
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "update.mode": "none",
+  "update.showReleaseNotes": false,
+  "plantuml.previewAutoUpdate": false
 }

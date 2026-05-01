@@ -14,7 +14,9 @@
   "symbols.hidesExplorerArrows": false,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.rulers": [140],
+  "editor.rulers": [
+    140
+  ],
   "files.defaultLanguage": "c#", // язык программирования с которым ассоциируется файл по-умолчанию - просто текст
   "diffEditor.ignoreTrimWhitespace": false, // Игнорировать проблемы при сравнении в редакторе diff
   "security.workspace.trust.untrustedFiles": "open", // открывает файлов без предупреждения
@@ -94,6 +96,8 @@
     "**/obj": true,
   },
   //Extensions
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
   //Spell checker
   "cSpell.language": "en,ru",
   "cSpell.userWords": [
@@ -157,4 +161,6 @@
   "dotnet.inlayHints.suppressInlayHintsForParametersThatMatchMethodIntent": true,
   "dotnet.inlayHints.enableInlayHintsForLiteralParameters": true,
   "csharp.inlayHints.enableInlayHintsForImplicitObjectCreation": true,
+  "github.copilot.renameSuggestions.triggerAutomatically": false,
+  "chat.disableAIFeatures": true,
 }
